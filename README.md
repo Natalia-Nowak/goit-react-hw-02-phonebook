@@ -1,1 +1,2 @@
-This is a React phonebook application. (./assets/Phonebook.png)
+This is a React phonebook application.
+![Screenshot form application](./assets/Phonebook.png)
