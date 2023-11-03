@@ -2,10 +2,12 @@
 
 This is a React phonebook application.
 
+![Screenshot form application](./assets/Phonebook.png)
+
+# Demo
+
 Here is a working live demo:
 https://natalia-nowak.github.io/goit-react-hw-02-phonebook/
-
-![Screenshot form application](./assets/Phonebook.png)
 
 # Setup
 
