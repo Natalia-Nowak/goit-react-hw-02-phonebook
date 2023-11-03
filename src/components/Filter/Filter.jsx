@@ -16,3 +16,7 @@ export default class Filter extends Component {
     );
   }
 }
+
+Filter.propTypes = {
+  filter: PropTypes.string,
+};
