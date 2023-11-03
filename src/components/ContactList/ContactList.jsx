@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './ContactList.css';
 
 export default class ContactList extends Component {
@@ -24,3 +25,8 @@ export default class ContactList extends Component {
     );
   }
 }
+
+ContactList.propTypes = {
+  name: PropTypes.string,
+  number: PropTypes.number,
+};

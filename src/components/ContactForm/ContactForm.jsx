@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './ContactForm.css';
 
-export default class ContactList extends Component {
+export default class ContactForm extends Component {
   render() {
     return (
       <form className="contact-form" onSubmit={this.props.handleSubmit}>
@@ -34,3 +35,8 @@ export default class ContactList extends Component {
     );
   }
 }
+
+ContactForm.propTypes = {
+  name: PropTypes.string,
+  number: PropTypes.number,
+};
